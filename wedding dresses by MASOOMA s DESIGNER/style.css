@@ -1,0 +1,192 @@
+
+body{
+font-family:('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+background-color: rgb(241, 241, 241);
+
+
+}
+
+.color{    padding-left: 30px; 
+  padding-right: 10px;
+          border: 1px solid maroon;
+}
+
+
+
+.red{ color: maroon;
+    
+  
+}   
+
+.menu{  background-color: black;
+  border: 4px solid maroon;
+      height: 80px;
+      width: 105%;
+      align-items: center;
+      display: flex;
+     
+}
+.logo { color: azure;
+             
+       font-size: 30px;
+      padding-left: 0px;
+      padding-top: 0px;
+   
+}
+.logo span{
+color: maroon;
+
+
+}
+ .menu ul{ list-style: none;
+          display: flex;
+        
+}
+.menu ul li{
+padding:  5px 5px;
+ position: relative;
+
+}
+.menu ul li a{  color:  whitesmoke;
+               font-size: 20px;
+              transition: all 0.2s;
+
+}
+.menu ul li a:hover{ color:grey;
+                    background-color:maroon;
+
+}
+.dropdown-menu{
+
+  display: none;
+}
+.menu ul li:hover .dropdown-menu{
+
+     display: block;
+     position: absolute;
+     left: 0;
+     top: 100%;
+background-color: black;
+}
+.menu ul li:hover .dropdown-menu ul{
+
+display: block;
+margin: 10px;
+}
+.menu ul li:hover .dropdown-menu ul li { 
+  width: 150px;
+  padding: 10px;
+
+}
+.box-image {background-image: url(" https://i.etsystatic.com/22295500/r/il/c10bc0/2417273319/il_794xN.2417273319_e4ft.jpg");
+  width: 100%;
+  height: 600px;
+ background-size: auto;
+padding-top: 10px;
+padding-left: 100px;
+margin: 0;
+ font size :30px;
+}
+
+
+.image{  
+ width: 50%px;
+height: 600px;
+border: 4px solid black;
+padding-left: 20px;
+margin-left: 200px;
+display: grid;
+gap: 8px;
+grid-template-columns: 3;
+grid-template-rows: 4;
+
+} .image1{background-image: url("https://4.imimg.com/data4/CE/SL/ANDROID-10701634/product-500x500.jpeg");
+          width: 45%;
+         height: 550px;
+         padding-top: 20px;
+         
+}.image2{background-image: url(" https://cdn.shopify.com/s/files/1/1732/6543/products/RedFrockLehengaBridalPakistaniWeddingDresses2023_620x.jpg?v=1672761145");
+         width: 45%;
+         height: 550px;
+      padding-top: 20px;
+
+}
+
+.image3{background-image:url(" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLp2F49g67-xy0C2kULRwPYbitPnC1q3jWew&usqp=CAU") ;
+       background-repeat: no-repeat;
+       background-size: cover;
+        width: 45%;
+        height: 550px;
+       padding-top: 20px;
+}
+.image4{ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwsf399oBu9FvAgBpm5f6et9ncnVPgsWpTdw&usqp=CAU");
+width: 45%;
+height: 550px;
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 20px;
+
+}.image5{
+  
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShRoT4pajC2CqioAhXKrt98KVswdpalz8udA&usqp=CAU");
+  width: 45%;
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+   padding-top: 20px;
+
+
+}
+  
+.image6{background-image: url("https://sc04.alicdn.com/kf/HLB1QeqVSHvpK1RjSZPiq6zmwXXaU.jpg");
+  width: 45%;
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+padding-top: 20px;
+
+}.image7{ background-image:url(" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjZopWalW8RPxnLSXrmtw8nVRI53tYMAdjIg&usqp=CAU") ;
+
+  width: 45%;
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+padding-top: 20px;
+
+}
+
+.image8{
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzw79Eap0Ru3JfdcdEdk27VFMgxEBtVPlq4uATHYXIlYiKtY9TpiDQ8JAa8c0hBM02nOg&usqp=CAU");
+
+
+  width: 45%;
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+ padding-top: 20px;
+
+
+}
+
+.image9{background-image: url(" https://cdn.shopify.com/s/files/1/1732/6543/products/GoldGreenLehengaCholi2023_620x.png?v=1669390606");
+
+
+
+  width: 45%;
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+ padding-top: 20px;
+
+}
+.image10{
+background-image: url(" https://i.pinimg.com/736x/ed/22/8f/ed228f5e6bf497554fb13fd635511d7b.jpg");
+  width: 45%;
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+
+}
